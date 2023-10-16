@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border: 1px solid blue;
+        }
+        caption{
+            color: white;
+            text-shadow: 0px 0px 3px black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Normal Table -1 -->
+    <table>
+        <caption style="font-size: 25px;">Fruits</caption>
+        <tr>
+            <th>SNO</th>
+            <th>Name of the Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Apple</td>
+            <td>5</td>
+            <td>50/Rs</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Banana</td>
+            <td>12</td>
+            <td>40/Rs</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Oranges</td>
+            <td>10</td>
+            <td>80/Rs</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Kiwi</td>
+            <td>4</td>
+            <td>100/Rs</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="font-size: 20px;color: red;">Total-Bill</td>
+            <td>270</td>
+        </tr>
+    </table>
+    <!-- Normal Table -2 -->
+    <table>
+        <caption style="font-size: 25px;">Mobiles</caption>
+        <thead>
+            <tr>
+                <th>Sno</th>
+                <th>Name of the Gadget</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Redmi</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>RealMe</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Samsung</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>MicroMax</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="2" style="font-size: 20px; font-weight: 40px; color: red;">Total-Quantity</td>
+            <td>9</td>
+        </tfoot>
+    </table>
+    <!-- Vertical Table -1 -->
+    <table>
+        <caption style="font-size: 25px;">Family-Details</caption>
+        <tr>
+            <th>Names</th>
+            <td>Veeraswami</td>
+            <td>Chandrakala</td>
+            <td>Gopi</td>
+            <td>Kishore</td>
+        </tr>
+        <tr>
+            <th>Ages</th>
+            <td>45</td>
+            <td>40</td>
+            <td>23</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th>Profession</th>
+            <td>Bussiness-Man-1</td>
+            <td>House-Maker</td>
+            <td>Bussiness-Man-2</td>
+            <td>Still-Strugling</td>
+        </tr>
+    </table>
+    <!-- Rowspan && Colspan -->
+    <table>
+        <caption>Example</caption>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td rowspan="2" colspan="2">Center Cell</td>
+            <td>abc</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+            <td>abc</td>
+        </tr>
+    </table><br>
+    <!-- Small Project -->
+    <table>
+        <tr>
+            <th colspan="7">Time Table</th>
+        </tr>
+        <tr>
+            <th rowspan="7">Hours</th>
+        </tr>
+        <tr>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</td>
+        </tr>
+        <tr>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <th colspan="5">LUNCH</th>
+        </tr>
+        <tr>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td rowspan="2">Projects</td>
+        </tr>
+        <tr>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Maths</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <!-- Forms -->
+    <div id="box">
+    <FORM>
+        <label for="name">Name:</label>
+        <input type="text" minlength="8" placeholder="Name" name="M_Name" id="name" required><br>
+        <label for="age" min="20" max="60">Age:</label>
+        <input type="number" placeholder="CurrentAge" name="Age" id="age"><br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="something@gmail.com" name="Mail" id="email"><br>
+        <label for="password">Password:</label>
+        <input type="password" minlength="8" placeholder="Password" name="Password" id="password"><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="Gender" id="gender">Male
+        <input type="radio" name="Gender" id="gender">Female<br>
+        <label for="g1">Skills:</label><br>
+        <input type="checkbox" id="g1">HTML<br>
+        <input type="checkbox" id="g1">CSS<br>
+        <input type="checkbox" id="g1">JS<br>
+        <input type="checkbox" id="g1">Java<br>
+        <label for="date">DOB:</label>
+        <input type="date" id="date"><br>
+        <input type="color"><br>
+        <input type="range" min="10" max="100" step="10"><br>
+        <input type="file"><br>
+        <input type="reset">
+        <input type="submit">
+    </FORM>
+    <!-- Drop Downs -->
+    <h3>1.Hyderabad</h3>
+    <h3>2.Banglore</h3>
+    <h3>3.Chennai</h3>
+    <h3>4.Others</h3>
+    <label for="first">First_Preference:</label>
+    <select name="First" id="first">
+        <option value="Hyderabad">1</option>
+        <option value="Banglore">2</option>
+        <option value="Chennai">3</option>
+        <option value="Others">4</option>
+    </select><br>
+    <label for="second">Second_Preference:</label>
+    <select name="Second" id="second">
+        <option value="Hyderabad">1</option>
+        <option value="Banglore">2</option>
+        <option value="Chennai">3</option>
+        <option value="Others">4</option>
+    </select><br>
+    <label for="third">Third_Preference:</label>
+    <select name="Third" id="third">
+        <option value="Hyderabad">1</option>
+        <option value="Banglore">2</option>
+        <option value="Chennai">3</option>
+        <option value="Others">4</option>
+    </select><br>
+    <label for="mess">Comment:</label><br>
+    <textarea name="store" cols="30" rows="10" id="mess" placeholder="Write Here"></textarea>
+    <button type="reset">Submit</button>
+</div>
+</body>
+</html>
