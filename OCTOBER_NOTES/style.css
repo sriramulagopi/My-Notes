@@ -1,0 +1,84 @@
+/* #g1>p{
+    color: red;
+    background-color: black;
+}
+#g1>div>p{
+    color: red;
+    background-color: aqua;
+}*/
+#g1{
+    background-color: red;
+} 
+#g1:hover{
+    color: white;
+    background-color: black;
+}
+#g1:focus{
+    background-color: yellow;
+}
+#my-list>li:nth-child(odd){
+    color: red;
+}
+
+/* *{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: red;
+    background-color: black;
+}
+p{
+    color: blue;
+    background-color: brown;
+}
+div{
+    color: yellow;
+    background-color: aqua;
+}
+span{
+    color: green;
+    background-color: crimson;
+}
+#g1{
+    color: white;
+}
+.green{
+    color: white;
+    background-color: black;
+    border: 10px solid green;
+}
+.disable{
+    background-color: chartreuse;
+    color: aliceblue;
+
+}
+.g1{
+    color: red;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+} */
+
+/* h1{
+    color: red;
+    background-color: aqua;
+    font-family: cursive;
+}
+p{
+    color: blue;
+    background-color: green;
+}
+span{
+    color: brown;
+    background-color: yellow;
+}
+button{
+    color: chocolate;
+    background-color: cadetblue;
+    width: 60px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+} */
