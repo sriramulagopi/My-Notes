@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@400;900&display=swap');
+/* Named colors */
+#g1{
+    color: red;
+}
+/* rgb */
+#g2{
+    color: rgb(80,40,43);
+}
+/* rgba */
+#g3{
+    color: rgba(5, 97, 188, 0.808);
+}
+/* hsl coloring */
+#g4{
+    color: hsl(100, 93%, 50%);
+}
+/* Hexacode */
+#g5{
+    color: #E60C5C;
+}
+/********* Ended here **********/
+
+/* Text will in center */
+#g6{
+    text-align: center;
+}
+#g7{
+    text-align: right;
+}
+#g8{
+    text-align: left;
+}
+#g9{
+    text-align: justify;
+}
+/********* Ended here **********/
+
+/* underline */
+#g10{
+    text-decoration:orange underline;
+}
+/* overline */
+#g11{
+    text-decoration:blue overline;
+}
+/* LineThrough */
+#g12{
+    text-decoration:red line-through;
+}
+/* None */
+#e1{
+    text-decoration: none;
+}
+
+/********* Ended here **********/
+
+/* UpperCase */
+#g13{
+    color: red;
+    text-transform: uppercase;
+}
+#g14{
+    color: red;
+    text-transform: lowercase;
+}
+#g15{
+    color: red;
+    text-transform: capitalize;
+}
+/********* Ended here **********/
+
+/* Line-height */
+#g16{
+    line-height: 100px;
+}
+#g17{
+    line-height: 5;
+}
+
+/********* Ended here **********/
+
+/* Text-shadow */
+#g18{
+    color: white;
+    text-shadow: 0px 0px 3px rgb(247, 54, 86) ;
+}
+/********* Ended here **********/
+#g19{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#g20{
+    font-family: cursive;
+}
+#g21{
+    font-family: 'Inter', sans-serif;
+}
+/********* Ended here **********/
+#g22{
+    font-style: italic;
+}
+
+/********* Ended here **********/
+#g23{
+    font-weight: 10;
+}
+/********* Ended here **********/
+
+#g24{
+   font-size: 200px ; 
+}
+/********* Ended here **********/
+#e2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    /* border-color: red;
+    border-width: 5px;
+    border-style: solid; */
+    border: 5px solid red;
+}
+#e3{
+    border-bottom:10px dashed yellow;
+    text-align: center;
+}
+/********* Ended here **********/
+/* This constant values */
+#e5{
+    background-color: blue;
+    width: 500px;
+}
+#e6{
+    background-color: blue;
+    width: 10cm;
+}
+#e7{
+    background-color: blue;
+    width: 50mm;
+}
+/* This are unconstant means
+  depending upon webpage */
+#e8{
+    background-color: red;
+    width: 50%;
+}
+#e9{
+    background-color: red;
+    width: 50vw;
+}
+#e10{
+    background-color: black;
+    width: 50%;
+    height: 500px;
+}
+#e11{
+    background-color: yellow;
+    width: 50%;
+    height: 250px;
+    margin: 100px;
+}
+#e12{
+    background-color: green;
+    width: 100vw;
+    height: 100px;
+}
