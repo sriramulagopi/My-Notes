@@ -1,0 +1,75 @@
+#eg1{
+    width:300px;
+    height: 300px;
+    background-color: blue;
+    margin: 40px;
+}
+#eg2{
+    width:300px;
+    height: 300px;
+    background-color: red;
+    margin: 40px;
+}
+#eg3{
+    display: inline;
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    margin: 100px;
+}
+#eg4{
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    margin: 100px;
+}
+#eg5{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 75px;
+}#eg6{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 75px;
+}
+.eg7{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 3px solid red;
+    margin-top: 10px;
+}
+#eg8{
+    position: static;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 3px solid black;
+    margin-top: 10px;
+    top: 100px;
+    left: 100px;
+}
+.eg9{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 3px solid black;
+    margin-top: 10px;
+    top: 100px;
+    left: 100px;
+}
+#eg10{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 3px solid red;
+    margin-top: 10px;
+    top: 100px;
+    left: 100px;
+}

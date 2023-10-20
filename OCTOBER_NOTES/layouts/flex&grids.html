@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Display Property -->
+    <!-- This is how actual works -->
+    <div id="eg1">block</div>
+    <div id="eg1">block</div>
+    <!-- In span vertical margins are not present -->
+    <span id="eg2">inline</span>
+    <span id="eg2">inline</span><br>
+    <!-- Here real code works -->
+    <div id="eg3">Block</div>
+    <div id="eg3">Block</div>
+    <span id="eg4">inline</span>
+    <span id="eg4">inline</span>
+    <!-- Here real code works -->
+    <div id="eg5">Block</div>
+    <div id="eg5">Block</div>
+    <span id="eg6">inline</span>
+    <span id="eg6">inline</span>
+<!-- Position Property -->
+     <!-- Position:static -->
+     <div class="eg7"></div>
+     <div id="eg8" class="eg7"></div>
+     <div class="eg7"></div>
+     <div class="eg7"></div>
+     <!-- Position:relative -->
+     <div class="eg9"></div>
+     <div class="eg9"></div>
+     <div id="eg10" class="eg9"></div>
+     <div class="eg9"></div>
+     <!-- Position:Fixed -->
+
+</body>
+</html>
